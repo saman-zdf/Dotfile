@@ -3,7 +3,7 @@
 For setting up the neovim plugins, do the following:
 
 ```
-cd lua
+cd nvim/lua
 nvim plugins.lua
 run :PackerInstall
 
