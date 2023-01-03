@@ -1,0 +1,7 @@
+document.jumpToNextSymbol
+document.jumpToNextSymbol
+tsserver.goToSourceDefinition
+workspace.renameCurrentFile
+document.renameCurrentWord
+extensions.forceUpdateAll
+cSpell.addIgnoreWord

@@ -1,0 +1,21 @@
+{
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "coc.preferences.jumpCommand": "edit",
+  "coc.preferences.formatOnSaveFiletypes": ["*"],
+  "php-cs-fixer.rules": "@PSR12,ordered_imports,no_unused_imports",
+  "php-cs-fixer.toolPath": "~/.config/coc/extensions/coc-php-cs-fixer-data/php-cs-fixer",
+  "intelephense.licenceKey": "2915961-3110201500000HKSyuZqFlvEPYUh!SCqIq1ZmAUH2!D6qUY!zkkqxokUh5gNKiaFJ6OF9LnPzlolU0kGUGRwWBPzIGV"Q4N9HL",
+  "htmlhint.documentSelector": ["html"],
+  "snippets.extends": {
+    "cpp": ["c"],
+    "javascriptreact": ["javascript", "html", "javascript-jasmine-arrow"],
+    "typescriptreact": ["javascript", "html", "javascript-jasmine-arrow"],
+    "typescript": ["javascript", "html", "javascript-jasmine-arrow"],
+    "edge": ["html"],
+    "liquid": ["html"],
+    "scss": ["css"],
+    "sass": ["css"]
+  }
+
+}

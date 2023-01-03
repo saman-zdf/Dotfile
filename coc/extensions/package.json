@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "coc-tsserver": ">=2.1.0",
+    "coc-css": ">=2.0.0",
+    "coc-html": ">=1.8.0",
+    "coc-phpls": ">=2.2.2",
+    "coc-emmet": ">=1.1.6",
+    "coc-spell-checker": ">=1.2.2",
+    "coc-eslint": ">=1.5.8",
+    "coc-pairs": ">=1.4.1",
+    "coc-prettier": ">=9.3.1",
+    "coc-highlight": ">=2.0.4",
+    "coc-htmlhint": ">=0.6.1"
+  }
+}
