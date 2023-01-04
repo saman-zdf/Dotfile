@@ -28,6 +28,15 @@ packer.startup(function(use)
 	use("williamboman/mason.nvim")
 	use("williamboman/mason-lspconfig.nvim")
 
+	-- yaml support
+	use({
+		"cuducos/yaml.nvim",
+		ft = { "yaml" }, -- optional
+		requires = {
+			"nvim-treesitter/nvim-treesitter",
+			"nvim-telescope/telescope.nvim", -- optional
+		},
+	})
 	-- COC nvim
 	use({ "neoclide/coc.nvim", branch = "release" })
 	use("glepnir/lspsaga.nvim") -- LSP UIs
