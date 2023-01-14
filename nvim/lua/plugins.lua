@@ -39,8 +39,17 @@ packer.startup(function(use)
 	})
 	-- COC nvim
 	use({ "neoclide/coc.nvim", branch = "release" })
-	use("glepnir/lspsaga.nvim") -- LSP UIs
+	-- use("glepnir/lspsaga.nvim") -- LSP UIs
 	use("L3MON4D3/LuaSnip")
+
+	-- NOTE: recent update of lspsage is not working, there is mismatch in my configurtion, the laspsage.rc is commented for now, until resolve the mismatch, COC will do the job for now.
+	-- use({
+	-- 	"glepnir/lspsaga.nvim",
+	-- 	branch = "main",
+	-- 	config = function()
+	-- 		require("lspsaga").setup({})
+	-- 	end,
+	-- })
 
 	-- Font size
 	use("tenxsoydev/size-matters.nvim")
