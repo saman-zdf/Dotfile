@@ -28,6 +28,8 @@ packer.startup(function(use)
 	use("williamboman/mason.nvim")
 	use("williamboman/mason-lspconfig.nvim")
 
+	-- For nvigation between windows like tmux
+	use("christoomey/vim-tmux-navigator")
 	-- yaml support
 	use({
 		"cuducos/yaml.nvim",
@@ -41,15 +43,13 @@ packer.startup(function(use)
 	use({ "neoclide/coc.nvim", branch = "release" })
 	-- use("glepnir/lspsaga.nvim") -- LSP UIs
 	use("L3MON4D3/LuaSnip")
-
-	-- NOTE: recent update of lspsage is not working, there is mismatch in my configurtion, the laspsage.rc is commented for now, until resolve the mismatch, COC will do the job for now.
-	-- use({
-	-- 	"glepnir/lspsaga.nvim",
-	-- 	branch = "main",
-	-- 	config = function()
-	-- 		require("lspsaga").setup({})
-	-- 	end,
-	-- })
+	use({
+		"glepnir/lspsaga.nvim",
+		branch = "main",
+		config = function()
+			require("lspsaga").setup({})
+		end,
+	})
 
 	-- Font size
 	use("tenxsoydev/size-matters.nvim")

@@ -12,6 +12,7 @@
     "javascriptreact": ["javascript", "html", "javascript-jasmine-arrow"],
     "typescriptreact": ["javascript", "html", "javascript-jasmine-arrow"],
     "typescript": ["javascript", "html", "javascript-jasmine-arrow"],
+    "javascript": ["javascript", "html", "javascript-jasmine-arrow"],
     "edge": ["html"],
     "liquid": ["html"],
     "scss": ["css"],
