@@ -15,9 +15,7 @@ require("vgit").setup({
 		["n <leader>gp"] = function()
 			require("vgit").buffer_hunk_preview()
 		end,
-		["n <leader>gb"] = function()
-			require("vgit").buffer_blame_preview()
-		end,
+
 		["n <leader>gf"] = function()
 			require("vgit").buffer_diff_preview()
 		end,
@@ -30,9 +28,7 @@ require("vgit").setup({
 		["n <leader>gg"] = function()
 			require("vgit").buffer_gutter_blame_preview()
 		end,
-		["n <leader>glu"] = function()
-			require("vgit").buffer_hunks_preview()
-		end,
+
 		["n <leader>gls"] = function()
 			require("vgit").project_hunks_staged_preview()
 		end,
