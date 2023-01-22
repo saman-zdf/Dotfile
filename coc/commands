@@ -1,3 +1,5 @@
+eslint.executeAutofix
+tsserver.goToProjectConfig
 document.jumpToNextSymbol
 document.jumpToNextSymbol
 tsserver.goToSourceDefinition

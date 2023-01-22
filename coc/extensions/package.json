@@ -11,5 +11,6 @@
     "coc-prettier": ">=9.3.1",
     "coc-highlight": ">=2.0.4",
     "coc-htmlhint": ">=0.6.1"
-  }
+  },
+  "lastUpdate": 1674301772954
 }

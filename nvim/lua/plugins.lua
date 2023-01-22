@@ -10,7 +10,8 @@ packer.startup(function(use)
 	use("wbthomason/packer.nvim")
 	-- Theme
 	-- use("olimorris/onedarkpro.nvim")
-	use("morhetz/gruvbox")
+	-- use("morhetz/gruvbox")
+	use({ "projekt0n/github-nvim-theme", tag = "v0.0.7" })
 	use({ "rockyzhang24/arctic.nvim", requires = { "rktjmp/lush.nvim" } })
 	-- using packer.nvim
 	use({ "akinsho/bufferline.nvim", tag = "v3.*", requires = "nvim-tree/nvim-web-devicons" })

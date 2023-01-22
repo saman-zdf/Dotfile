@@ -1,6 +1,7 @@
 {
   "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
+  "suggest.noselect": true,
   "coc.preferences.jumpCommand": "edit",
   "coc.preferences.formatOnSaveFiletypes": ["*"],
   "php-cs-fixer.rules": "@PSR12,ordered_imports,no_unused_imports",

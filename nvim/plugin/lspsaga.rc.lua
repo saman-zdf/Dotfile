@@ -14,6 +14,8 @@ saga.setup({
 	definition_action_keys = {
 		edit = "<CR>",
 	},
+
+	time_out = 6000,
 })
 
 local keymap = vim.keymap.set
@@ -24,10 +26,11 @@ local keymap = vim.keymap.set
 keymap("n", "gh", "<cmd>Lspsaga lsp_finder<CR>")
 
 -- Code action
-keymap({ "n", "v" }, "<leader>ca", "<cmd>Lspsaga code_action<CR>")
+--  TODO: Code action not working, find a bug *************
+-- keymap("n", "<leader>b", "<cmd>Lspsaga code_action<CR>")
 
 -- Rename
-keymap("n", "gr", "<cmd>Lspsaga rename<CR>")
+-- keymap("n", "gr", "<cmd>Lspsaga rename<CR>")
 
 -- Peek Definition
 -- you can edit the definition file in this float window
